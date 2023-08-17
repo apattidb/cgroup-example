@@ -1,0 +1,4 @@
+build --experimental_sandbox_execution_info_limit
+build --local_extra_resources=memory=10000000
+build --local_extra_resources=cpu=16
+test --nocache_test_results
